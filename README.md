@@ -8,7 +8,7 @@ Developed at the **Centre for Remote Sensing and Geographic Information Services
 
 The pipeline accepts a Planet NICFI satellite mosaic and manually digitised training polygons as inputs and produces a binary prediction map classifying each pixel as galamsey or non-galamsey. It uses a U-Net segmentation model with a ResNet34 encoder, trained on 4-channel (B, G, R, NIR) imagery at 4.77 m resolution.
 
-The full methodology is documented in `asm_methodology.docx`.
+The full methodology is documented in `gala_mapper_documentation.pdf`.
 
 ## Repository structure
 
